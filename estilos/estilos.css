@@ -26,6 +26,7 @@ main img {
 
 nav {
     background-color: steelblue;
+    padding: 0;
 }
 
 nav a {
@@ -61,7 +62,7 @@ aside {
 }
 
 aside img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
