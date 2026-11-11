@@ -1,3 +1,10 @@
+:root {
+    --cor-cabeçalho: steelblue;
+    --cor-fundo-imagem: gray;
+
+}
+
+/* Reseta CSS do meu projeto */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     color: #222;
-    background: #fff;
+    background: white;
     margin: 0;
 }
 
@@ -17,15 +24,19 @@ main {
 }
 
 main img {
-    width: 150px;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    width: 200px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--cor-cabeçalho);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--cor-fundo-imagem);
+    float: right;
 }
 
 nav {
-    background-color: steelblue;
+    background-color: var(--cor-cabeçalho);
     padding: 0;
 }
 
@@ -36,15 +47,7 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
-}
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    color: var(--cor-cabeçalho);
 }
 
 p {
@@ -53,12 +56,9 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -66,8 +66,28 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 105px;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de Classe */
+
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
