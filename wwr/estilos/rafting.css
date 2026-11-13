@@ -40,7 +40,15 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+footer {
+    background-color: var(--cor-primaria);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 4px solid var(--cor-primaria);
+}
+
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -63,7 +71,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
-    color: #fff;
+    color: var(--cor-destaque2);
 }
 
 .hero article {
@@ -88,7 +96,8 @@ article {
     height: 125px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid white;
+    border: 2px solid var(--cor-secundaria);
+
 }
 
 .hero article p {
