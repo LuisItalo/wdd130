@@ -129,7 +129,7 @@ footer {
     grid-template-columns: 1fr 2fr;
 }
 
-@media (max-width 600px) {
+@media (max-width: 600px) {
 
     .item-formulario,
     .coluna1,
