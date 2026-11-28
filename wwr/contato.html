@@ -7,7 +7,7 @@
     <title>Fale Conosco | Aventura Rafting &amp; Cia</title>
 
     <meta name="description"
-      content="Entre em contato com a nossa equipe de rafting para tirar dúvidas, agendar passeios e consultar endereço, telefone, e-mail e horários de atendimento, aguardamos.">
+      content="Entre em contato com a nossa equipe de rafting para tirar dúvidas, agendar passeios e consultar endereço, telefone, e-mail e horários de atendimento.">
     <meta name="author" content="Luis Italo">
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
@@ -61,15 +61,15 @@
                     <span class="rotulo-grupo">Finalidade da Mensagem</span>
                     <div class="opcoes-radio">
                         <label>
-                            <input type="radio" name="finalidade" value="consulta-geral" checked>
+                            <input type="radio" id="finalidade-geral" name="finalidade" value="consulta-geral" checked>
                             Consulta Geral
                         </label>
                         <label>
-                            <input type="radio" name="finalidade" value="pergunta-reserva">
+                            <input type="radio" id="finalidade-reserva" name="finalidade" value="pergunta-reserva">
                             Pergunta sobre Reserva
                         </label>
                         <label>
-                            <input type="radio" name="finalidade" value="sugestao-site">
+                            <input type="radio" id="finalidade-sugestao" name="finalidade" value="sugestao-site">
                             Sugestão de Site
                         </label>
                     </div>
@@ -80,8 +80,8 @@
                     <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite aqui" required></textarea>
                 </div>
 
-                <label class="linha-checkbox">
-                    <input type="checkbox" name="newsletter" value="sim">
+                <label for="newsletter" class="linha-checkbox">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="sim">
                     Quero receber a newsletter mensal
                 </label>
 
@@ -93,15 +93,15 @@
             <h2>Estamos Aqui para Serví-lo</h2>
             <div class="equipe-grid">
                 <figure>
-                    <img src="imagens/free-photo-of-aventura-em-grupo-emocionante-passeio-de-rafting-em-aguas-bravas.webp" alt="Carlos Mendes, Guia Sênior de Rafting">
+                    <img src="imagens/rafting4_600.jpg" alt="Carlos Mendes, Guia Sênior de Rafting">
                     <figcaption>Carlos Mendes — Guia Sênior</figcaption>
                 </figure>
                 <figure>
-                    <img src="imagens/360_F_650724156_fnjSXyvv1WYyB134r3oD56eVqhx5IWLD.webp" alt="Ana Paula, Coordenadora de Reservas">
+                    <img src="imagens/rafting59_600.jpg" alt="Ana Paula, Coordenadora de Reservas">
                     <figcaption>Ana Paula — Coordenadora de Reservas</figcaption>
                 </figure>
                 <figure>
-                    <img src="imagens/depositphotos_399307460-stock-photo-pacuare-river-costa-rica-march.webp" alt="Rafael Souza, Instrutor de Segurança">
+                    <img src="imagens/rafting18_600.jpg" alt="Rafael Souza, Instrutor de Segurança">
                     <figcaption>Rafael Souza — Instrutor de Segurança</figcaption>
                 </figure>
             </div>
@@ -112,7 +112,7 @@
         <p>&copy; 2026 Aventura Rafting & Cia - Luis Italo</p>
         <nav class="redes-sociais">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <img src=" imagens/facebook.svg" alt="Ícone do Facebook">
+                <img src="imagens/facebook.svg" alt="Ícone do Facebook">
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 <img src="imagens/linkedin.svg" alt="Ícone do LinkedIn">
